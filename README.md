@@ -50,9 +50,6 @@ Update stock information for a specific stock identified by its ID.
   Retrieve stocks with a price higher than a specified value and birth timestamp lower than a specified date.
 * DELETE /stock/ownerCount/{count}
 Delete stocks based on the stock owner count.
->## Contributors
-
-Satyam Jaiswal(satyam1459)
 
 >## Project Summary
 The project is a Spring Boot application with an integrated H2 database. It provides a stock controller that handles various stock-related operations. The application exposes RESTful endpoints for managing stocks, such as updating stock information, creating new stocks, retrieving stocks based on specific criteria, and deleting stocks.
